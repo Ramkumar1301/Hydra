@@ -1,0 +1,49 @@
+header{
+   display: flex;
+   padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+li,button{
+    font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.navbar>li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    list-style: none;
+    padding: 5px 50px;
+    color: #FFF;
+
+
+}
+
+#btn1{
+    border-radius: 2.5rem;
+    border: 2px solid #FFF;
+    background-color: #302C42;
+    color: #FFF;
+    width: 9.625rem;
+    margin-right:50px ;
+height: 3rem;
+flex-shrink: 0;
+}
+#btn2{
+    border-radius: 2.5rem;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    color: #343045;
+font-family: Montserrat;
+width: 9.625rem;
+height: 3rem;
+flex-shrink: 0;
+margin-right:50px ;
+}

@@ -1,0 +1,76 @@
+h1{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+span{
+    background: linear-gradient(92deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#arrow{
+    width: 6.25rem;
+height: 6.25rem;
+flex-shrink: 0;
+
+}
+
+#vrimage{
+    width: 32.75rem;
+    height: 28.4375rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem 6.25rem 6.25rem 15rem;
+
+filter: drop-shadow(10px 10px 10px lightgray );
+margin-left:300px ;
+
+
+}
+
+button{
+    border-radius: 2.5rem;
+background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+width: 13.375rem;
+height: 3rem;
+flex-shrink: 0;
+color: #343045;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#details{
+    margin-top: 30px;
+    height: 10.4375rem;
+flex-shrink: 0;
+border-radius: 5.625rem;
+background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+#icons{
+    width: 4.375rem;
+height: 4.375rem;
+flex-shrink: 0;
+}
+#title{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
