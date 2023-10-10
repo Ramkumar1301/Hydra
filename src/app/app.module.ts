@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
 import { HeroSectionComponent } from './component/hero-section/hero-section.component';
 import { IntroductionSectionComponent } from './component/introduction-section/introduction-section.component';
+import { FeatureSectionComponent } from './component/feature-section/feature-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HeroSectionComponent,
-    IntroductionSectionComponent
+    IntroductionSectionComponent,
+    FeatureSectionComponent
   ],
   imports: [
     BrowserModule
