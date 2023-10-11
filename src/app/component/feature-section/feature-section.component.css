@@ -41,20 +41,20 @@ display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   
 }
-.cardimgholder{
+ .cardimgholder{
     
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-   
-    margin-bottom: auto;
-  
-  
     
 }
+  
+  
+    
+
 #img1{
     width: 11.93269rem;
     height: 11.93269rem;
