@@ -6,6 +6,7 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { HeroSectionComponent } from './component/hero-section/hero-section.component';
 import { IntroductionSectionComponent } from './component/introduction-section/introduction-section.component';
 import { FeatureSectionComponent } from './component/feature-section/feature-section.component';
+import { WorkSectionComponent } from './component/work-section/work-section.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FeatureSectionComponent } from './component/feature-section/feature-sec
     NavbarComponent,
     HeroSectionComponent,
     IntroductionSectionComponent,
-    FeatureSectionComponent
+    FeatureSectionComponent,
+    WorkSectionComponent
   ],
   imports: [
     BrowserModule
