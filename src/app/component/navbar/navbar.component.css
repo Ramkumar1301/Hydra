@@ -1,3 +1,6 @@
+.cola{
+    border: 2px solid white;
+}
 header{
    display: flex;
    padding: 40px;

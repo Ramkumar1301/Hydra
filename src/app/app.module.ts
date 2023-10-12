@@ -7,6 +7,8 @@ import { HeroSectionComponent } from './component/hero-section/hero-section.comp
 import { IntroductionSectionComponent } from './component/introduction-section/introduction-section.component';
 import { FeatureSectionComponent } from './component/feature-section/feature-section.component';
 import { WorkSectionComponent } from './component/work-section/work-section.component';
+import { FormComponent } from './component/form/form.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { WorkSectionComponent } from './component/work-section/work-section.comp
     HeroSectionComponent,
     IntroductionSectionComponent,
     FeatureSectionComponent,
-    WorkSectionComponent
+    WorkSectionComponent,
+    FormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

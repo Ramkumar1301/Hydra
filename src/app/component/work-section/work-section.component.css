@@ -1,37 +1,40 @@
-.cola{
+.cola {
     border: 2px solid white;
-} 
-.background{
-    background-image: url("/assets/vr.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-   
 }
-h1{
+
+.background {
+    background-image: url("/assets/vr.png");
+    
+  
+
+}
+
+h1 {
     color: #FFF;
-font-family: Montserrat;
-font-size: 2.25rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-align: center;
-color: white;
-/* position: absolute;
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    color: white;
+    /* position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 } */
 }
-span{
+
+span {
     color: #FFF;
-font-family: Montserrat;
-font-size: 2.25rem;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
-.company{
+
+.company {
     justify-content: center;
     align-items: center;
     justify-content: space-around;

@@ -1,3 +1,6 @@
+.cola{
+    border: 2px solid white;
+}
 h1{
     color: #FFF;
 font-family: Montserrat;
@@ -27,7 +30,12 @@ height: 6.25rem;
 flex-shrink: 0;
 
 }
-
+.vrimageHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid red;
+}
 #vrimage{
     width: 32.75rem;
     height: 28.4375rem;
@@ -35,7 +43,8 @@ flex-shrink: 0;
     border-radius: 6.25rem 6.25rem 6.25rem 15rem;
 
 filter: drop-shadow(10px 10px 10px lightgray );
-margin-left:300px ;
+
+
 
 
 }
