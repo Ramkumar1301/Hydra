@@ -1,6 +1,11 @@
 .cola{
     border: 2px solid white;
 }
+.row2{
+    background-image: url("/assets/vector7.png");
+    background-position: top;
+    background-repeat: no-repeat
+}
 h1{
     color: #FFF;
 font-family: Montserrat;

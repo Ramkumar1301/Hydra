@@ -45,7 +45,7 @@ flex-shrink: 0;
 filter: drop-shadow(10px 10px 10px lightgray );
 
 
-
+ 
 
 }
 
@@ -80,6 +80,7 @@ align-items: center;
     width: 4.375rem;
 height: 4.375rem;
 flex-shrink: 0;
+align-self: center;
 }
 #title{
     color: #FFF;

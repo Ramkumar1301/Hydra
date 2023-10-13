@@ -13,7 +13,7 @@ display: flex;
     
 }
 form{
-   
+   display: flex;
 }
 h1{
     color: #FFF;
@@ -33,7 +33,7 @@ font-weight: 300;
 line-height: normal;
 text-align: center;
 }
-input{
+input,textarea{
     border-radius: 2.5rem;
 border: 2px solid #FFF;
 color: white;
@@ -74,7 +74,7 @@ text-align: center;
 
 }
 .formContent{
-    padding-top: 20px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -83,4 +83,15 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (max-width: 768px) {
+   
+    
+    .inputbox1, .inputbox2, .inputbox3 {
+        width: 100%; /* Make the input fields full width on smaller screens */
+    }
+    
+    button {
+        width: 100%; /* Make the button full width on smaller screens */
+    }
 }
