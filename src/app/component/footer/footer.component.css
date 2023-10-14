@@ -1,5 +1,5 @@
 .cola {
-    border: 2px solid white;
+    
     justify-content: space-between;
     align-items: center;
 }
@@ -39,4 +39,25 @@ width: 13.375rem;
 height: 3rem;
 flex-shrink: 0;
 
+}
+
+@media screen and (max-width: 769px) {
+    /* Add CSS rules for larger screens, like tablets and desktops */
+    *{
+        padding: 0px;
+        margin-left:0px !important;
+        margin-right:0px !important ;
+    }
+    .col{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgLine{
+        display: none;
+    }
+    li{
+        display: none;
+    }
 }

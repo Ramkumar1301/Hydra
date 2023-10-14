@@ -1,63 +1,73 @@
-.cola{
-    border: 2px solid white;
+/* .cola {
+  border: 2px solid white;
+} */
+.row2 {
+  background-image: url("/assets/vector7.png");
+  background-position: top;
+  background-repeat: no-repeat;
 }
-.row2{
-    background-image: url("/assets/vector7.png");
-    background-position: top;
-    background-repeat: no-repeat
+h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: justify;
+  padding-left: 88px;
 }
-h1{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-align: justify
-;
-padding-left: 88px;
+span {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
-span{
-   
-color: #FFF;
-font-family: Montserrat;
-font-size: 36px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-}
-#introduction{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-align: justify;
-padding-left: 70px;
-    padding-right: 95px;
+#introduction {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: justify;
+  padding-left: 70px;
+  padding-right: 95px;
 }
 
-#image{
-    width: 524px;
-height: 557px;
-flex-shrink: 0;
-    border-radius: 100px 240px;
-background: #A3A3A3;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
+#image {
+  width: 524px;
+  height: 557px;
+  flex-shrink: 0;
+  border-radius: 100px 240px;
+  background: #a3a3a3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-button{
-    color: #343045;
-font-family: Montserrat;
-font-size: 12px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-width: 214px;
-height: 48px;
-flex-shrink: 0;
-border-radius: 40px;
-background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+button {
+  color: #343045;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 214px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+@media screen and (max-width: 769px) {
+  /* Add CSS rules for larger screens, like tablets and desktops */
+    #imgholder{
+        padding-left: 0px !important;
+    }
+  #image {
+    width: 350px;
 
+  }
+  #introduction{
+    padding-left: 11px;
+    padding-right: 15px;
+  }
 }

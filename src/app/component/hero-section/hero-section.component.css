@@ -1,6 +1,6 @@
-.cola{
+/* .cola{
     border: 2px solid white;
-}
+} */
 h1{
     color: #FFF;
 font-family: Montserrat;
@@ -34,7 +34,6 @@ flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    border:1px solid red;
 }
 #vrimage{
     width: 32.75rem;
@@ -89,4 +88,22 @@ align-self: center;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+@media screen and (max-width: 769px) {
+    /* Add CSS rules for larger screens, like tablets and desktops */
+    .MobileView{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin-left: 0px;
+
+    }
+    #vrimage{
+        width: 350px;
+      
+}
+
+
 }

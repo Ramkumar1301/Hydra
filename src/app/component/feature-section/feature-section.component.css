@@ -1,5 +1,6 @@
+
 .cola{
-    border: 2px solid white;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,3 +115,18 @@ display: block;
     margin-left: auto;
     margin-right: auto;
 }
+@media screen and (max-width: 769px) {
+    /* Add CSS rules for larger screens, like tablets and desktops */
+      #imgholder{
+          padding-left: 0px !important;
+      }
+    #image {
+      width: 350px;
+  
+    }
+    #introduction{
+      padding-left: 11px;
+      padding-right: 15px;
+    }
+  }
+  
