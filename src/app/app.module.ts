@@ -9,6 +9,7 @@ import { FeatureSectionComponent } from './component/feature-section/feature-sec
 import { WorkSectionComponent } from './component/work-section/work-section.component';
 import { FormComponent } from './component/form/form.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { BuildSectionComponent } from './component/build-section/build-section.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './component/footer/footer.component';
     FeatureSectionComponent,
     WorkSectionComponent,
     FormComponent,
-    FooterComponent
+    FooterComponent,
+    BuildSectionComponent
   ],
   imports: [
     BrowserModule

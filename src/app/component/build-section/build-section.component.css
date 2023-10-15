@@ -1,0 +1,61 @@
+h1 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: justify;
+    padding-left: 88px;
+  }
+  span {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  #introduction {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    padding-left: 70px;
+    padding-right: 95px;
+  }
+  .circlecontainer{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+  }
+  
+  .circle>p{
+    width: 9.9375rem;
+height: 9.9375rem;
+flex-shrink: 0;
+background: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
+border: 2px solid rgba(13, 13, 13, 0.32);
+border-radius: 50%;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #343045;
+font-family: Montserrat;
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+  }
+  .method{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
