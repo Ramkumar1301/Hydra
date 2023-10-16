@@ -9,6 +9,10 @@ header{
    
     
 } 
+ul{
+    width: 40%;
+    justify-content: space-around;
+}
 
 li,button{
     font-family: Montserrat;
@@ -57,4 +61,8 @@ width: 9.625rem;
 height: 3rem;
 flex-shrink: 0;
 margin-right:50px ;
+}
+form{
+    width: 30%;
+    justify-content: space-evenly;
 }
