@@ -39,3 +39,7 @@ span {
     align-items: center;
     justify-content: space-around;
 }
+.arrowholder{
+    display: flex;
+    justify-content: center;
+}
