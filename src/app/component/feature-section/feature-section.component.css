@@ -109,7 +109,7 @@ color: #343045;
 font-family: Montserrat;
 font-size: 0.75rem;
 font-style: normal;
-font-weight: 700;
+font-weight: 700; 
 line-height: normal;
 display: block;
     margin-left: auto;
@@ -127,6 +127,12 @@ display: block;
     #introduction{
       padding-left: 11px;
       padding-right: 15px;
+    }
+    #feature-wrapper{
+        flex-direction: column;
+    }
+    h1{
+        padding: 0px;
     }
   }
   

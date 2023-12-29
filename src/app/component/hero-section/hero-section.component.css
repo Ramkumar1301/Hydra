@@ -69,9 +69,6 @@ flex-shrink: 0;
 border-radius: 5.625rem;
 background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
 box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
-justify-content: space-evenly;
-justify-items: center;
-align-items: center;
 
 
 }
@@ -89,14 +86,28 @@ align-self: center;
     font-weight: 400;
     line-height: normal;
 }
+#containerHolder{
+    width:90%;
+    border-radius: 90px;
+    background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+#holder{
+   gap:24px
+
+}
 @media screen and (max-width: 769px) {
     /* Add CSS rules for larger screens, like tablets and desktops */
     .MobileView{
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        padding: 0px;
+      
+       
+        padding: 0px !important;
         margin-left: 0px;
 
     }
@@ -104,6 +115,9 @@ align-self: center;
         width: 350px;
       
 }
+   #containerHolder{
+    display: none !important;
+   }
 
 
 }
