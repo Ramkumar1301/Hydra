@@ -10,7 +10,7 @@ import { WorkSectionComponent } from './component/work-section/work-section.comp
 import { FormComponent } from './component/form/form.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { BuildSectionComponent } from './component/build-section/build-section.component';
-import {  CarouselModule } from 'ngx-owl-carousel-o';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +27,7 @@ import {  CarouselModule } from 'ngx-owl-carousel-o';
   ],
   imports: [
     BrowserModule,
-    CarouselModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
